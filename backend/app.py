@@ -280,6 +280,7 @@ def view_notifications_route():
 def process_sslcommerz_payment():
     data = request.get_json()
     required_fields = ['booking_id', 'amount','vehicle_owner']
+    print(data)
     if not all(field in data for field in required_fields):
         return jsonify({'message': 'Missing required fields.'}), 400
 

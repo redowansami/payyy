@@ -6,7 +6,7 @@ class SpaceOwnerController {
   Future<void> submitParkingSpot(SpaceOwnerModel model) async {
     try {
       final response = await http.post(
-        Uri.parse('http://10.0.2.2:5000/add_parking_spot'),
+        Uri.parse('http://127.0.0.1:5000/add_parking_spot'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({
           'spot_id': model.spotId,
