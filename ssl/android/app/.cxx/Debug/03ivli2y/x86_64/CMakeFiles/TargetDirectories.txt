@@ -1,0 +1,2 @@
+C:/payment/ssl/android/app/.cxx/Debug/03ivli2y/x86_64/CMakeFiles/edit_cache.dir
+C:/payment/ssl/android/app/.cxx/Debug/03ivli2y/x86_64/CMakeFiles/rebuild_cache.dir
